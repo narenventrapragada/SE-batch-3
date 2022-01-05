@@ -357,19 +357,19 @@ public class SignUp{
             return null;
         }
     }
-    public static void writer(String id,File fi)throws IOException{//creating a method to write the data to file
+    /*public static void writer(String id,File fi)throws IOException{//creating a method to write the data to file
         FileWriter fwr=new FileWriter(fi,true);
         PrintWriter pw=new PrintWriter(fw);
         fwr.riter(id);
         fwr.close();
-    }
+    }*/
     //public static Scanner scan=new Scanner(System.in);
     public static String feedback(String file){
         Scanner sca=new Scanner(System.in);
         System.out.println("Enter the feedback you want to give:");
         String fil=sca.nextLine();
         File fi=new File("C:\\Users\\USER\\Desktop\\tanmayee\\feedback.txt");
-        writer(fil,fi);
+        //writer(fil,fi);
         System.out.println("The feedback given by you is "+fil);
         return " ";
     }
