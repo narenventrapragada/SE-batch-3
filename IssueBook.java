@@ -62,7 +62,8 @@ public class IssueBook {
                            PrintWriter pw = new PrintWriter(store);
                            pw.println(count+" "+bname+"is issued");
                            count++;
-                           System.out.println(count+" "+"book has been issued");
+                           System.out.println(bname+ " "+"book has been issued");
+                           System.out.println(count+" "+"book is issued to you");
                            pw.close();
                            
                            
