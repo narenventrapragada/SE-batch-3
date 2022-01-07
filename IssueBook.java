@@ -44,14 +44,6 @@ public class IssueBook {
                     index=i;
                     verify=true;
                    // System.out.println("index is "+""+i);
-                   /* while(i!=-1)
-                    { 
-                        int[] indices
-                        int index1=-1;
-
-
-                    }
-                 */
                     flag = 1;
                     break;
                 } else {
